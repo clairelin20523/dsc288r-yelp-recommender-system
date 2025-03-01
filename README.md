@@ -13,6 +13,7 @@ Link: https://www.kaggle.com/datasets/adamamer2001/yelp-complete-open-dataset-20
 2. Uncomment and run the first two code blocks to load data from Kaggle
 3. Comment the code blocks again
 4. Run the next few blocks to load data into the current directory
+
 *Note:* `model1` and `model2` notebooks use the downloaded data
 
 ## Dependencies:
