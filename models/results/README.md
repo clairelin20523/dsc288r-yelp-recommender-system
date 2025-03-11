@@ -4,8 +4,8 @@
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/clairelin20523/dsc288r-yelp-recommender-system.git
+cd dsc288r-yelp-recommender-system
 ```
 
 ### 2. Install Dependencies
