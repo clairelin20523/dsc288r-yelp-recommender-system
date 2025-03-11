@@ -30,7 +30,8 @@ jupyter lab
 # If you do not want to run all of this code you can just run the bottom lines which will use the existing .pkl files that were created from the hyperparameters to create the model.
 ##### Example of how to run this code is below. This example will load both KNN and SVD and run the prediction on one user/business to predict if the user would review the business.
 
-``` from surprise import dump
+```
+ from surprise import dump
     model_file = 'svd_binary.pkl'
    loaded_model = dump.load(model_file)[1]
    knn_file = 'knn_binary.pkl'
@@ -42,4 +43,5 @@ jupyter lab
    print(f"Predicted review status (0 or 1): {pred.est}")
 
    knn_pred = knn_model.predict(user_id, business_id)
-   print(f"KNN Predicted review status: {knn_pred.est}") ```
+   print(f"KNN Predicted review status: {knn_pred.est}")
+```
