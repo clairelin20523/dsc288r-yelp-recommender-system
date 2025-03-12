@@ -45,3 +45,8 @@ jupyter lab
    knn_pred = knn_model.predict(user_id, business_id)
    print(f"KNN Predicted review status: {knn_pred.est}")
 ```
+
+Authors:
+Claire Lin - cll015@ucsd.edu
+Rongrong (Cassy) Xu - rox002@ucsd.edu
+Timothy Indrieri - tindrieri@ucsd.edu
