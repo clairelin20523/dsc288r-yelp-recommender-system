@@ -50,7 +50,7 @@ You can download them from [Yelp Open Dataset](https://www.yelp.com/dataset).
 jupyter lab
 ```
 
-### _NOTE:_ ##
+### _NOTE:_ 
 If you do not want to run all of this code you can just run the bottom lines which will use the existing .pkl files that were created from the hyperparameters to create the model.
 ##### Example of how to run this code is below. This example will load both KNN and SVD and run the prediction on one user/business to predict if the user would review the business.
 
