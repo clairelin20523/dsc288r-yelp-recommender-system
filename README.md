@@ -20,8 +20,8 @@ The goal of this project is to understand users preferences and to give better r
 
 By improving the accuracy and efficiency of recommendations, this project aims to drive increased user engagement and retention, ultimately generating more revenue and growth for online platforms.
 
-# *model_reproducible.ipynb* file
-Predicts likelihood user will review a business and predicts the rating a user will give for a business
+# Reproduce Results
+Uses the *model_reproducible.ipynb* file in the models folder. Predicts likelihood user will review a business and predicts the rating a user will give for a business
 
 ## Setup Instructions
 _Note:_ This is for compiling the code and running it on a local server. Also ran this in Anaconda.
