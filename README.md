@@ -17,6 +17,7 @@ The goal of this project is to understand users preferences and to give better r
 * **Item-based collaborative filtering:** Find similar businesses and return back highly rated businesses that the user had not reviewed.
 * **K-Nearest Neighbors (KNN):** Predicting businesses that users have likely reviewed before (Binary predition) and to predict the rating a user could give for a business that they have not seen before (Rating prediction).
 * **Singular Value Decomposition (SVD):** Applied similarly for both binary and rating predictions.
+
 By improving the accuracy and efficiency of recommendations, this project aims to drive increased user engagement and retention, ultimately generating more revenue and growth for online platforms.
 
 # *model_reproducible.ipynb* file  - Predicts likelihood user will review a business and predicts the rating a user will give for a business
