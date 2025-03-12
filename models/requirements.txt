@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+surprise
+torch
+kagglehub
+seaborn
+plotly
+matplotlib
+scipy
