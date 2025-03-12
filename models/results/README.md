@@ -3,6 +3,9 @@ Project Group 07: Yelp-Powered Insights: Building a Business Recommender System
 
 ## Overview
 Our project aims to create a recommendation algorithm to help users discover businesses that match their preferences while also gaining insights into user behavior. By analyzing the businesses users have reviewed and comparing them with predicted recommendations, the model can refine its suggestions, enhancing personalization. 
+Data Source: Yelp Complete Open Dataset 2024 - Kaggle
+
+Link: https://www.kaggle.com/datasets/adamamer2001/yelp-complete-open-dataset-2024
 
 # Model 5 file  - Predicts likelihood user will review a business and predicts the rating a user will give for a business
 
