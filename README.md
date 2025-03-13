@@ -58,9 +58,9 @@ You can find the .pkl files from this hugging face libaray: https://huggingface.
 
 ```
  from surprise import dump
-    model_file = 'models/svd_binary.pkl'
+    model_file = 'svd_binary.pkl'
    loaded_model = dump.load(model_file)[1]
-   knn_file = 'models/knn_binary.pkl'
+   knn_file = 'knn_binary.pkl'
    knn_model = dump.load(knn_file)[1]
 
    user_id = "BL2YwAB7he2PrDIg31VQ"
