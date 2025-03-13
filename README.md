@@ -78,6 +78,33 @@ You can find the .pkl files from this hugging face libaray: https://huggingface.
    knn_pred = knn_model.predict(user_id, business_id)
    print(f"KNN Predicted review status: {knn_pred.est}")
 ```
+#### Can also run to get the exact RSME based on the training set. Please download the training result as well to get the exact RSME values.
+```import pandas as pd
+from surprise import dump, accuracy
+
+model_file = 'svd_binary.pkl'
+loaded_model = dump.load(model_file)[1]  
+
+knn_file = 'knn_binary.pkl'
+knn_model = dump.load(knn_file)[1]
+
+
+df_test_svd = pd.read_csv('svd_test_binary.csv')
+testset_svd = list(df_test_svd.itertuples(index=False, name=None))
+
+df_test_knn = pd.read_csv('knn_test_binary.csv')
+testset_knn = list(df_test_knn.itertuples(index=False, name=None))
+
+
+svd_predictions = loaded_model.test(testset_svd)
+knn_predictions = knn_model.test(testset_knn)
+
+svd_rmse = accuracy.rmse(svd_predictions)
+knn_rmse = accuracy.rmse(knn_predictions)
+
+print(f"SVD Model Binary RMSE: {svd_rmse}")
+print(f"KNN Model Binary RMSE: {knn_rmse}")```
+
 
 Authors:
 Claire Lin - cll015@ucsd.edu
