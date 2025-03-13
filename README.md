@@ -78,7 +78,13 @@ You can find the .pkl files from this hugging face libaray: https://huggingface.
    knn_pred = knn_model.predict(user_id, business_id)
    print(f"KNN Predicted review status: {knn_pred.est}")
 ```
-#### Can also run to get the exact RSME based on the training set. Please download the training result as well to get the exact RSME values.
+
+#### You can also run the code to get the exact RMSE based on the training set. Please download the training result file to get the exact RMSE values.
+
+### Steps:
+1. **Download** the training result file from the Hugging Face library and place it in the same directory as your code.
+2. **Copy** the code block provided below and paste it into your script to calculate the exact RMSE.
+   
 ```import pandas as pd
 from surprise import dump, accuracy
 
