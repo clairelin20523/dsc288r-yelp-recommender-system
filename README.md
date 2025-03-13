@@ -52,6 +52,8 @@ jupyter lab
 
 ### _NOTE:_ 
 If you do not want to run all of this code you can just run the bottom lines which will use the existing .pkl files that were created from the hyperparameters to create the model.
+You can find the .pkl files from this hugging face libaray: https://huggingface.co/turtle12731329/svd_final/tree/main
+
 ##### Example of how to run this code is below. This example will load both KNN and SVD and run the prediction on one user/business to predict if the user would review the business.
 
 ```
