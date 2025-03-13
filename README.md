@@ -54,6 +54,13 @@ jupyter lab
 If you do not want to run all of this code you can just run the bottom lines which will use the existing .pkl files that were created from the hyperparameters to create the model.
 You can find the .pkl files from this hugging face libaray: https://huggingface.co/turtle12731329/svd_final/tree/main
 
+### Steps
+1. **Download** the `.pkl` file of the model you would like to use and place it in the same directory as your code.  
+2. **Copy** the code block below into your script.  
+3. **Modify** the following as needed:  
+   - Replace the model file name with the `.pkl` file you are using for prediction.  
+   - Update the `_user_id_` and `_business_id_` with the specific user and business you want to predict for.
+
 ##### Example of how to run this code is below. This example will load both KNN and SVD and run the prediction on one user/business to predict if the user would review the business.
 
 ```
