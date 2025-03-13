@@ -52,7 +52,7 @@ jupyter lab
 
 ### _NOTE:_ 
 If you do not want to run all of this code you can just run the bottom lines which will use the existing .pkl files that were created from the hyperparameters to create the model.
-You can find the .pkl files from this hugging face libaray: https://huggingface.co/turtle12731329/svd_final/tree/main
+You can find the .pkl files from this hugging face libaray: https://huggingface.co/turtle12731329/Capstone_SVD_KNN/tree/main
 
 ### Steps
 1. **Download** the `.pkl` file of the model you would like to use and place it in the same directory as your code.  
