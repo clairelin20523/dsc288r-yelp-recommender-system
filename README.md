@@ -103,8 +103,31 @@ svd_rmse = accuracy.rmse(svd_predictions)
 knn_rmse = accuracy.rmse(knn_predictions)
 
 print(f"SVD Model Binary RMSE: {svd_rmse}")
-print(f"KNN Model Binary RMSE: {knn_rmse}")```
+print(f"KNN Model Binary RMSE: {knn_rmse}")
 
+model_file = 'svd_final.pkl'
+loaded_model = dump.load(model_file)[1]  
+
+knn_file = 'knn_rating.pkl'
+knn_model = dump.load(knn_file)[1]
+
+
+df_test_svd = pd.read_csv('svd_final_test_rating.csv')
+testset_svd = list(df_test_svd.itertuples(index=False, name=None))
+
+df_test_knn = pd.read_csv('knn_test_rating.csv')
+testset_knn = list(df_test_knn.itertuples(index=False, name=None))
+
+
+svd_predictions = loaded_model.test(testset_svd)
+knn_predictions = knn_model.test(testset_knn)
+
+svd_rmse = accuracy.rmse(svd_predictions)
+knn_rmse = accuracy.rmse(knn_predictions)
+
+print(f"SVD Model Rating RMSE: {svd_rmse}")
+print(f"KNN Model Rating RMSE: {knn_rmse}")
+```
 
 Authors:
 Claire Lin - cll015@ucsd.edu
