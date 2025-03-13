@@ -82,7 +82,11 @@ You can find the .pkl files from this hugging face libaray: https://huggingface.
 #### You can also run the code to get the exact RMSE based on the training set. Please download the training result file to get the exact RMSE values.
 
 ### Steps:
-1. **Download** the training result file from the Hugging Face library and place it in the same directory as your code.
+1. **Download** the training result files from the Hugging Face library and place it in the same directory as your code. 
+   - `svd_test_binary.csv`
+   - `knn_test_binary.csv`
+   - `svd_final_test_rating.csv`
+   - `knn_test_rating.csv`
 2. **Copy** the code block provided below and paste it into your script to calculate the exact RMSE.
    
 ```import pandas as pd
