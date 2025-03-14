@@ -49,6 +49,13 @@ You can download them from [Yelp Open Dataset](https://www.yelp.com/dataset).
 ```sh
 jupyter lab
 ```
+ ## 5. Run the EDA and model1,model2 in the notebooks folder
+ 1. Run and upload the ipython notebook *EDA.ipynb*
+ 2. Uncomment and run the first two code blocks to load data from Kaggle
+ 3. Comment the code blocks again
+ 4. Run the next few blocks to load data into the current directory
+ 5. Run and upload the ipython notebook for  *model1.ipynb*
+ 6. Run and upload the ipython notebook for  *model2.ipynb* 
 
 ### _NOTE:_ 
 If you do not want to run all of this code you can just run the bottom lines which will use the existing .pkl files that were created from the hyperparameters to create the model.
